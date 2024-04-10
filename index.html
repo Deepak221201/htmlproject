@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; 
+	    background-image: url('background.jpg');       
+	    background-color: #100C58;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .course {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            width: 300px;
+        }
+
+        .course:hover {
+            transform: translateY(-5px);
+        }
+
+        .course img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .course .info {
+            padding: 20px;
+	    display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .course h3 {
+            margin-top: 0;
+            font-size:1.5rem;
+            color: #333;
+        }
+
+        .course p {
+            color: #313C2E;
+        }
+
+        .course a {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+        }
+
+        .course a:hover {
+            background-color: #0056b3;
+        }
+	 h1 {
+            font-size: 100px;
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<h1>COURSE LIST</h1>
+    <div class="container">
+        <div class="course">
+            <img src="AGILE.jpg" alt="Course 1">
+            <div class="info">
+                <h3 align ="center">AGILE BASED SOFTWARE ENGINEERING</h3>
+                <p align="center">2023-2024</p>
+                <a href="agile.html">View Details</a>
+            </div>
+        </div>
+        <div class="course">
+            <img src="DEVOPS.png" alt="Course 2">
+            <div class="info">
+                <h3 align ="center">CONTINUOUS DELIVERY AND DEVOPS</h3>
+                 <p align="center">2023-2024</p>
+
+                <a href="devops.html" align="center">View Details</a>
+            </div>
+        </div> <div class="course">
+            <img src="DAA.jpeg" alt="Course 2">
+            <div class="info">
+                <h3 align ="center">DATA STRUCTURES AND ALGORITHMS </h3>
+                 <p align="center">2023-2024</p>
+
+                <a href="daa.html">View Details</a>
+            </div>
+        </div> <div class="course">
+            <img src="DATA.jpeg" alt="Course 2">
+            <div class="info">
+                <h3 align ="center">DATA VISUALIZATION TECHNIQUES</h3>
+                <p align="center">2023-2024</p>
+
+                <a href="data.html">View Details</a>
+            </div>
+        </div> <div class="course">
+            <img src="JAVA.png" alt="Course 2">
+            <div class="info">
+                <h3 align ="center">FULL STACK DEVELOPMENT USING JAVA</h3>
+                 <p align="center">2023-2024</p>
+
+                <a href="java.html">View Details</a>
+            </div>
+        </div>  <div class="course">
+            <img src="TERM.png" alt="Course 2">
+            <div class="info">
+                <h3 align ="center">TERM PAPER</h3>
+                 <p align="center">2023-2024</p>
+
+                <a href="term.html">View Details</a>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

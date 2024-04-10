@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile-Based Software Engineering Course</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; 
+	    background-image: url('background.jpg');       
+	    background-color: #100C58;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+     <h1>Agile-Based Software Engineering</h1>
+      <div class="container">
+        <h3>Agile-Based software Engineering</h3>
+        <p>The Agile-Based Software Engineering course provides a comprehensive understanding of Agile methodologies and practices in software development. Participants will learn how to effectively apply Agile principles to enhance team collaboration, increase productivity, and deliver valuable software solutions that meet customer requirements. Topics covered include Agile frameworks such as Scrum and Kanban, Agile project management, user stories, iterative development, continuous integration, and customer feedback loops. Through hands-on exercises, case studies, and real-world examples, participants will gain practical skills and knowledge to thrive in dynamic software development environments.</p>
+<h4>Syllabus</h4>
+<p>Introduction: Need of Agile software development, agile context- Manifesto, Principles, Methods, Values, Roles, Artifacts, Stakeholders, and challenges. Business benefits of software agility. Project Planning: Recognizing the structure of an agile team- Programmers, Managers, Customers. User stories-Definition, Characteristics and content. Estimation- Planning poker, Prioritizing, and selecting user stories with the customer, projecting team velocity for releases and iterations. Project Design: Fundamentals, Demonstrate Design principles-Single responsibility, Open-closed, Liskov substitution, Dependency-inversion, Interface-segregation. Identify Design Methodologies: Need of scrum, Scrum practices-Working of scrum, Project velocity, Burn down chart, Sprint backlog, Sprint planning and retrospective, Daily scrum, Scrum roles- Product Owner, Scrum Master, Scrum Team. Extreme Programming- Core principles, values and practices. Kanban, Feature-driven development, Lean software development. Testing: The Agile lifecycle and its impact on testing, Test driven development- Acceptance tests and verifying stories, writing a user acceptance test, Developing effective test suites, Continuous integration, Code refactoring. Risk based testing, Regression tests, Test automation.</p>
+    </div>
+</body>
+</html>
